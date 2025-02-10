@@ -81,10 +81,6 @@ Pero antes que eso vamos a configurar el archivo de reglas “etc/suricata/rules
 
 
 
-![](https://github.com/LeandroCassano/Suricata-Ubuntu-server/blob/main/6%20regla%20anti%20ddos.JPG)
-
-
-
 
 Teniendo todo listo vamos a revisar los logs para verificar el ataque. Hay muchas maneras de hacer esto, pero voy a hacerlo de manera básica solo de ejemplo.
 Este comando permite ver en tiempo real los logs de la herramienta en la misma terminal tail -f /var/log/suricata/suricata.log
